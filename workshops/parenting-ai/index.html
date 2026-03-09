@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parenting in the Age of AI — Digital Resource Package</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Calibri', 'Segoe UI', system-ui, sans-serif;
+    color: #1C2333;
+    background: #f5f7fa;
+    line-height: 1.6;
+  }
+
+  /* ---- HEADER ---- */
+  .hero {
+    background: #1C2333;
+    color: #ffffff;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .hero h1 span { color: #0EA5E9; }
+
+  .hero .subtitle {
+    font-size: 16px;
+    color: #94a3b8;
+    margin-bottom: 16px;
+  }
+
+  .hero .tagline {
+    font-size: 18px;
+    color: #F59E0B;
+    font-style: italic;
+  }
+
+  /* ---- CONTAINER ---- */
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* ---- NAV ---- */
+  .nav {
+    background: #253246;
+    padding: 14px 24px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .nav a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 12px;
+    transition: color 0.2s;
+  }
+
+  .nav a:hover { color: #0EA5E9; }
+
+  /* ---- SECTIONS ---- */
+  section {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 32px;
+    margin-top: 28px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1C2333;
+    margin-bottom: 6px;
+  }
+
+  h2 span { color: #0EA5E9; }
+
+  .section-intro {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1C2333;
+    margin: 24px 0 8px;
+  }
+
+  h3:first-of-type { margin-top: 0; }
+
+  /* ---- SCENARIO CARDS ---- */
+  .scenario {
+    background: #f8f9fb;
+    border-left: 4px solid #0EA5E9;
+    border-radius: 0 6px 6px 0;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+  }
+
+  .scenario h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #1C2333;
+  }
+
+  .scenario p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 8px;
+    line-height: 1.55;
+  }
+
+  .scenario .opener {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 10px 14px;
+    margin-top: 10px;
+    font-style: italic;
+    color: #1C2333;
+    font-size: 14px;
+    border: 1px solid #e2e6ea;
+  }
+
+  .scenario .opener strong {
+    display: block;
+    font-style: normal;
+    font-size: 12px;
+    color: #0EA5E9;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .scenario .note {
+    font-size: 13px;
+    color: #667;
+    margin-top: 10px;
+  }
+
+  /* ---- TABLE ---- */
+  .table-wrap { overflow-x: auto; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  thead th {
+    background: #1C2333;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 14px;
+    text-align: left;
+  }
+
+  tbody td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #e2e6ea;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) { background: #f8f9fb; }
+
+  /* ---- CALLOUT ---- */
+  .callout {
+    background: #1C2333;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px 24px;
+    text-align: center;
+    margin: 24px 0;
+  }
+
+  .callout .question {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F59E0B;
+    margin-bottom: 6px;
+  }
+
+  .callout .answer {
+    font-size: 14px;
+    color: #cbd5e1;
+  }
+
+  .callout .answer strong { color: #ffffff; }
+
+  /* ---- LINK LISTS ---- */
+  .link-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .link-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #eef0f3;
+  }
+
+  .link-list li:last-child { border-bottom: none; }
+
+  .link-list a {
+    color: #0EA5E9;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .link-list a:hover { text-decoration: underline; }
+
+  .link-list .desc {
+    font-size: 13px;
+    color: #667;
+    margin-top: 2px;
+  }
+
+  /* ---- HOW AI WORKS ---- */
+  .explainer p {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 12px;
+  }
+
+  .explainer .analogy {
+    background: #fffbeb;
+    border-left: 4px solid #F59E0B;
+    padding: 14px 18px;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+    color: #78350f;
+    margin: 16px 0;
+  }
+
+  /* ---- CRISIS BOX ---- */
+  .crisis {
+    background: #fef2f2;
+    border: 2px solid #fca5a5;
+    border-radius: 8px;
+    padding: 24px;
+  }
+
+  .crisis h2 { color: #991b1b; }
+
+  .crisis .resource {
+    margin-bottom: 14px;
+  }
+
+  .crisis .resource:last-child { margin-bottom: 0; }
+
+  .crisis .resource strong {
+    display: block;
+    font-size: 15px;
+    color: #1C2333;
+  }
+
+  .crisis .resource span {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .crisis .resource .number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #991b1b;
+  }
+
+  /* ---- FOOTER ---- */
+  .footer {
+    text-align: center;
+    padding: 32px 20px;
+    color: #94a3b8;
+    font-size: 13px;
+  }
+
+  /* ---- RESPONSIVE ---- */
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 24px; }
+    .nav a { display: block; margin: 6px 0; }
+    section { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="hero">
+  <h1>Parenting in the <span>Age of AI</span></h1>
+  <div class="subtitle">John Oliver Secondary &middot; Parent Workshop &middot; Digital Resource Package</div>
+  <div class="tagline">"You don't need to be an AI expert. You need to stay in the conversation."</div>
+</div>
+
+<!-- NAV -->
+<div class="nav">
+  <a href="#recap">Workshop Recap</a>
+  <a href="#scenarios">When Things Go Wrong</a>
+  <a href="#how-it-works">How AI Works</a>
+  <a href="#watching">Videos</a>
+  <a href="#reading">Reading</a>
+  <a href="#bc-guidance">BC Guidance</a>
+  <a href="#crisis">Crisis Resources</a>
+</div>
+
+<div class="container">
+
+  <!-- SECTION: WORKSHOP RECAP -->
+  <section id="recap">
+    <h2><span>Workshop</span> Recap</h2>
+    <p class="section-intro">Here's everything from the printed handout, plus a bit more detail.</p>
+
+    <h3>Is AI Helping or Hurting?</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="width:50%">AI is helping when...</th>
+            <th style="width:50%">AI is hurting when...</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>They use it to explain a concept they don't understand</td>
+            <td>They use it to write something they could write themselves</td>
+          </tr>
+          <tr>
+            <td>They generate practice questions to study with</td>
+            <td>They generate the assignment itself</td>
+          </tr>
+          <tr>
+            <td>They brainstorm ideas, then do their own thinking</td>
+            <td>They copy-paste and change a few words</td>
+          </tr>
+          <tr>
+            <td>They use it to break a big task into smaller steps</td>
+            <td>They have AI do each step instead of just planning them</td>
+          </tr>
+          <tr>
+            <td>An ESL student uses it to translate concepts for family</td>
+            <td>They rely on it so heavily they stop building their own skills</td>
+          </tr>
+          <tr>
+            <td>They can explain their work without the AI</td>
+            <td>They couldn't redo the work if you took the AI away</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <div class="question">"Could you do this without the AI?"</div>
+      <div class="answer"><strong>If yes</strong> &mdash; they're using it as a tool. &nbsp;&nbsp;<strong>If no</strong> &mdash; the AI is doing their thinking for them.</div>
+    </div>
+
+    <h3>5 Conversation Starters</h3>
+    <ol style="padding-left: 20px; font-size: 15px; line-height: 1.8;">
+      <li>"What's the weirdest thing you've seen AI get wrong?"</li>
+      <li>"Do your teachers talk about AI? What do they say?"</li>
+      <li>"If you could use AI for anything with no rules, what would you use it for?"</li>
+      <li>"Do you think AI makes school easier or just different?"</li>
+      <li>"Has AI ever given you advice that felt off?"</li>
+    </ol>
+
+    <h3>3 Things to Try This Week</h3>
+    <p style="font-size: 15px; margin-bottom: 8px;"><strong>1. Have the "Show Me" conversation.</strong> "I went to this thing at John Oliver about AI and I'm curious. Can you show me how you use it for homework? I'm not trying to catch you. I genuinely want to see."</p>
+    <p style="font-size: 15px; margin-bottom: 8px;"><strong>2. Use AI yourself, in front of your child.</strong> Try it for something real (drafting an email, looking up a recipe, researching a purchase). Then question the result out loud. When they see you use it AND question it, both become normal.</p>
+    <p style="font-size: 15px;"><strong>3. Ask the one question.</strong> Next time your child finishes an assignment, ask casually: "Could you do that without the AI?" No judgment. Just curiosity.</p>
+  </section>
+
+  <!-- SECTION: WHEN THINGS GO WRONG -->
+  <section id="scenarios">
+    <h2><span>When Things</span> Go Wrong</h2>
+    <p class="section-intro">Three common situations you might face, with conversation starting points. There's no single right way to handle these. Use what feels natural to you and your family.</p>
+
+    <div class="scenario">
+      <h3>You discover your child submitted an AI-written essay</h3>
+      <p>This is probably the most common scenario parents will encounter. The essay reads well, maybe better than your child's usual writing, but something feels off. Or a teacher flags it.</p>
+      <div class="opener">
+        <strong>A way in:</strong>
+        "I noticed your essay reads really differently from your usual writing. Can you walk me through how you wrote it? I'm curious about your process."
+      </div>
+      <p class="note">If they used AI, the follow-up question is: "Could you have written this without it?" Listen to their answer. The goal is to understand their habits, not to punish a single incident.</p>
+    </div>
+
+    <div class="scenario">
+      <h3>Your child's grades have suddenly improved and you're not sure why</h3>
+      <p>This is not necessarily a problem. Better grades could mean they're studying more effectively, or it could mean AI is doing the heavy lifting. The university wake-up story from the workshop is relevant here: students getting 95% on AI-assisted homework were scoring 40% on exams.</p>
+      <div class="opener">
+        <strong>A way in:</strong>
+        "Your marks have been really strong lately. What's changed? I'd love to know what's working."
+      </div>
+      <p class="note">If AI comes up, follow with the "Show Me" approach: "Can you show me how you're using it? I genuinely want to see." You'll learn more from watching than from asking.</p>
+    </div>
+
+    <div class="scenario">
+      <h3>You find your child talking to an AI companion late at night</h3>
+      <p>This one is less about school and more about emotional well-being. AI companions are designed to validate. They agree with everything. They never push back, never challenge, never say "I think you're wrong." For a teenager, that can feel comforting but it's not the same as a real relationship.</p>
+      <div class="opener">
+        <strong>A way in:</strong>
+        "I saw you were up late on your phone. Everything okay? I'm not checking up on you, I just want to make sure you're doing alright."
+      </div>
+      <p class="note">The real question underneath is whether your child has enough human connection. If they're turning to AI for emotional support, it's worth thinking about why, not banning the tool.</p>
+    </div>
+  </section>
+
+  <!-- SECTION: HOW AI ACTUALLY WORKS -->
+  <section id="how-it-works">
+    <h2><span>How AI</span> Actually Works</h2>
+    <p class="section-intro">A plain-language explanation you can share with your family.</p>
+
+    <div class="explainer">
+      <p>When you text "Happy" on your phone, it suggests "Birthday." It does this because it has learned the pattern: millions of people have typed "Happy Birthday" before you.</p>
+
+      <p>AI chatbots like ChatGPT and Claude work the same way, just at a much bigger scale. They've been trained on most of the text on the internet and have learned patterns for how words follow each other. When your child types a question, the AI doesn't "know" the answer. It predicts the most likely next word, over and over, until it has a paragraph.</p>
+
+      <div class="analogy">
+        <strong>The short version:</strong> AI is autocomplete on a massive scale. It sounds confident. It can be very useful. But it has no idea whether what it's saying is true.
+      </div>
+
+      <p><strong>What is a "hallucination"?</strong> This is the term for when AI states something completely made up as if it were fact. No hedging, no "I'm not sure." Just a confident, detailed answer that happens to be fiction. In 2023, a lawyer in New York submitted a legal brief containing six case citations that AI had invented. Fake case names, fake judges, fake rulings. The lawyer was sanctioned by the court.</p>
+
+      <p><strong>Why this matters for your child:</strong> If your child is using AI for homework and the AI gives them a quote, a date, or a source, it might be real or it might be completely invented. They have no way to know without checking. The first skill your child needs is the habit of verifying what AI tells them.</p>
+    </div>
+  </section>
+
+  <!-- SECTION: RECOMMENDED WATCHING -->
+  <section id="watching">
+    <h2><span>Recommended</span> Watching</h2>
+    <p class="section-intro">Short videos worth your time. Start with the first two if you only have 30 minutes.</p>
+
+    <ul class="link-list">
+      <li>
+        <a href="https://www.youtube.com/watch?v=9oXtuJ33lQs" target="_blank">Raising Humans in the Age of AI &mdash; XJ Zhang (TEDx)</a>
+        <div class="desc">A parent and technologist on timeless parenting principles in a world of new technology.</div>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=EzZHytUVSAE" target="_blank">How Will AI Affect How We Raise Children? &mdash; Meghan Puglia (TEDx)</a>
+        <div class="desc">A researcher on the developmental implications of AI in children's lives.</div>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=FFZa2HTKW4I" target="_blank">Raising Humans in an AI World &mdash; Frank Greeff (TEDx)</a>
+        <div class="desc">Practical advice on preparing children for a future shaped by AI.</div>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=BX-K0PIls2I" target="_blank">The Future of Education in an AI-Powered World</a>
+        <div class="desc">How education is changing and what it means for students and families.</div>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=MLvxRHlsMz0" target="_blank">The AI Dilemma &mdash; Tristan Harris (Prof G Conversations)</a>
+        <div class="desc">A deeper look at the societal challenges of AI from the team behind The Social Dilemma.</div>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=jhOom7j8MZ8" target="_blank">How to Prepare Children for an AI Future</a>
+        <div class="desc">Concrete strategies for parents thinking about their children's long-term readiness.</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SECTION: RECOMMENDED READING -->
+  <section id="reading">
+    <h2><span>Recommended</span> Reading</h2>
+    <p class="section-intro">Articles and reports referenced during the workshop.</p>
+
+    <ul class="link-list">
+      <li>
+        <a href="https://kpmg.com/ca/en/home/media/press-releases/2025/10/generative-ai-boom-among-canadian-students-raises-dilemmas.html" target="_blank">Generative AI Boom Among Canadian Students Raises Dilemmas &mdash; KPMG Canada, 2025</a>
+        <div class="desc">The source for the workshop's key stats: 73% of Canadian students use AI for schoolwork, 66% say grades improved but they're not learning as much.</div>
+      </li>
+      <li>
+        <a href="https://www.commonsensemedia.org/articles/parents-ultimate-guide-to-generative-ai" target="_blank">Parents' Ultimate Guide to Generative AI &mdash; Common Sense Media</a>
+        <div class="desc">A comprehensive, plain-language guide covering what parents need to know about AI tools their children are using.</div>
+      </li>
+      <li>
+        <a href="https://www.commonsensemedia.org/research/the-dawn-of-the-ai-era-teens-parents-and-the-adoption-of-generative-ai-at-home-and-school" target="_blank">The Dawn of the AI Era: Teens, Parents, and AI &mdash; Common Sense Media</a>
+        <div class="desc">Research on how teens and parents are adopting generative AI at home and school.</div>
+      </li>
+      <li>
+        <a href="https://www.cbc.ca/news/canada/psstudents-ai-2025-9.6932319" target="_blank">More Young Canadians Are Tapping AI for Learning &mdash; CBC News</a>
+        <div class="desc">Canadian media coverage of the KPMG findings and what they mean for families.</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SECTION: BC GUIDANCE -->
+  <section id="bc-guidance">
+    <h2><span>BC Education</span> &amp; AI Guidance</h2>
+    <p class="section-intro">Official resources from the BC Ministry of Education and the Vancouver School Board.</p>
+
+    <ul class="link-list">
+      <li>
+        <a href="https://www2.gov.bc.ca/gov/content/education-training/k-12/administration/program-management/ai-in-education" target="_blank">Digital Literacy and the Use of AI in Education &mdash; BC Ministry of Education</a>
+        <div class="desc">The Ministry's main page on AI in K-12 education, including guiding principles and supporting documents.</div>
+      </li>
+      <li>
+        <a href="https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/ai-in-education/considerations-for-using-ai-tools-in-k-12-schools.pdf" target="_blank">Considerations for Using AI Tools in K-12 Schools (PDF) &mdash; BC Ministry</a>
+        <div class="desc">Factors for schools to consider when incorporating AI tools safely and equitably.</div>
+      </li>
+      <li>
+        <a href="https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/ai-in-education/curriculum-connections-digital-literacy-and-the-use-of-ai.pdf" target="_blank">Curriculum Connections: Digital Literacy and AI (PDF) &mdash; BC Ministry</a>
+        <div class="desc">How AI connects to the BC curriculum across subjects and grade levels.</div>
+      </li>
+      <li>
+        <a href="https://www.vsb.bc.ca/digital-literacy-and-use-of-ai-in-education" target="_blank">Digital Literacy and Use of AI in Education &mdash; Vancouver School Board</a>
+        <div class="desc">The VSB's page on digital literacy and AI resources for the Vancouver school community.</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SECTION: CRISIS RESOURCES -->
+  <section id="crisis" class="crisis">
+    <h2>If You Need Help Right Now</h2>
+    <p class="section-intro" style="color: #555;">If your child is in crisis, struggling with mental health, or you're concerned about something you've discovered, these resources are available 24/7.</p>
+
+    <div class="resource">
+      <strong>Kids Help Phone</strong>
+      <span>Canada's 24/7 support service for young people.</span><br>
+      <span class="number">1-800-668-6868</span><br>
+      <span>Text <strong>CONNECT</strong> to <strong>686868</strong> &nbsp;|&nbsp; <a href="https://kidshelpphone.ca" target="_blank" style="color: #991b1b;">kidshelpphone.ca</a></span>
+    </div>
+
+    <div class="resource">
+      <strong>BC Crisis Line</strong>
+      <span>For anyone in BC experiencing a mental health crisis.</span><br>
+      <span class="number">1-800-784-2433</span>
+    </div>
+
+    <div class="resource">
+      <strong>310 Mental Health Support</strong>
+      <span>BC's provincial mental health and substance use information line. No area code needed.</span><br>
+      <span class="number">310-6789</span>
+    </div>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <p>Parenting in the Age of AI &middot; John Oliver Secondary &middot; March 2026</p>
+  <p style="margin-top: 4px;">Presented by Mike Snelgrove</p>
+</div>
+
+</body>
+</html>

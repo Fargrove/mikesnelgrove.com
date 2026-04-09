@@ -1,46 +1,55 @@
-# CLAUDE.md — mikesnelgrove.com
-
----
+# mikesnelgrove.com
 
 ## Project Overview
 
-Personal website for Mike Snelgrove, hosted on Cloudflare Pages with automatic deployment from GitHub.
+Personal website for Michael Snelgrove. Originally a workshop resource host for NeuroBridge Consulting, now transitioning to a **sandbox and experimentation site**. The primary professional site is moving to **threenottwo.com** (Three Not Two Consulting).
+
+The site still hosts live workshop content that will eventually migrate to threenottwo.com.
+
+## Hosting & Deployment
 
 - **Domain:** mikesnelgrove.com (registered through Cloudflare)
 - **Hosting:** Cloudflare Pages, auto-deploys from `main` branch
 - **Repo:** `github.com/Fargrove/mikesnelgrove.com` (private)
-- **Stack:** Static HTML, no build step
+- **Deploy:** Push to `main` on GitHub. No build commands or configuration needed.
 
----
+## Tech Stack
+
+- Static HTML, no build step, no dependencies
+- Open to adopting a static site generator (Astro, 11ty, etc.) when complexity warrants it
 
 ## Site Structure
 
 ```
-/                          → Root page (NeuroBridge logo)
+/                          → Root page (NeuroBridge logo — outdated, needs updating)
 /workshops/                → Workshops index page
-/workshops/parenting-ai/   → Digital Resource Package for JO parent workshop
+/workshops/parenting-ai/   → JO workshop digital resource package (live, QR codes point here)
 ```
-
----
-
-## History
-
-- **2026-03-08:** Site created. Initially planned for Google Sites, switched to Cloudflare Pages for simplicity and GitHub auto-deploy. Domain purchased through Cloudflare (DNS configured automatically). Root page shows the NeuroBridge logo. Workshops index page links to individual workshop resource packages.
-- **2026-03-08:** Digital Resource Package for the "Parenting in the Age of AI" workshop (John Oliver Secondary, March 10, 2026) published at `/workshops/parenting-ai/`. Contains workshop recap, scenario cards, how AI works explainer, recommended watching/reading, BC education guidance, and crisis resources. QR code pointing to this page is embedded in the printed one-pager and slide deck for that workshop.
-
----
 
 ## Key Files
 
 | File | Purpose |
 |---|---|
-| `index.html` | Root page (NeuroBridge logo) |
-| `NeuroBridge-Logo_trans_bg.png` | Logo image |
+| `index.html` | Root page (currently shows NeuroBridge logo) |
+| `NeuroBridge-Logo_trans_bg.png` | Logo image (will be replaced after rebrand) |
 | `workshops/index.html` | Workshops listing |
 | `workshops/parenting-ai/index.html` | JO workshop digital resource package |
+| `PRD.md` | Project source of truth (current state, direction, open questions) |
 
----
+## Live Dependencies
 
-## Deployment
+The `/workshops/parenting-ai/` page is referenced by QR codes on printed materials for the JO workshop. These URLs must keep working. When content migrates to threenottwo.com, set up 301 redirects via Cloudflare Pages `_redirects` file.
 
-Push to `main` on GitHub. Cloudflare Pages picks it up automatically. No build commands or configuration needed.
+## Related Projects
+
+| Project | Location | Relationship |
+|---|---|---|
+| Three Not Two Branding | `~/Claude OS/Three Not Two Branding/` | threenottwo.com is the professional site; this site is the sandbox |
+| JO Workshop | `~/Claude OS/JO/Parenting in the Age of AI/` | Workshop resource page lives here |
+| AI Education Initiative | `~/Claude OS/AI Education Initiative/` | Future workshops may prototype here first |
+
+## Workspace Conventions
+
+- **PRD.md** — detailed source of truth; update in place (statuses, decisions, research gaps)
+- **CLAUDE.md** — concise session briefing; append a new SESSION HANDOFF each session, keep under 200 lines
+- **Deliverable format:** Author in the repo directly (HTML, CSS, MD). No external build tools currently.

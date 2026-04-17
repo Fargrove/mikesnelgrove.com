@@ -44,7 +44,7 @@ The `/workshops/parenting-ai/` page is referenced by QR codes on printed materia
 
 | Project | Location | Relationship |
 |---|---|---|
-| Three Not Two Branding | `~/Claude OS/Three Not Two Branding/` | threenottwo.com is the professional site; this site is the sandbox |
+| Three Not Two Branding | `~/Claude OS/Three Not Two/Branding/` | threenottwo.com is the professional site; this site is the sandbox |
 | JO Workshop | `~/Claude OS/JO/Parenting in the Age of AI/` | Workshop resource page lives here |
 | AI Education Initiative | `~/Claude OS/AI Education Initiative/` | Future workshops may prototype here first |
 

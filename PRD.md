@@ -68,7 +68,7 @@ The site is currently static HTML with no build step. As experimentation needs g
 
 | Project | Location | Relationship |
 |---|---|---|
-| Three Not Two Branding | `~/Claude OS/Three Not Two Branding/` | threenottwo.com will be the primary professional site. mikesnelgrove.com becomes the sandbox. |
+| Three Not Two Branding | `~/Claude OS/Three Not Two/Branding/` | threenottwo.com will be the primary professional site. mikesnelgrove.com becomes the sandbox. |
 | JO - Parenting in the Age of AI | `~/Claude OS/JO/Parenting in the Age of AI/` | The `/workshops/parenting-ai/` page was built for this workshop. QR codes on printed materials point here. |
 | AI Education Initiative | `~/Claude OS/AI Education Initiative/` | Future workshops may initially prototype on mikesnelgrove.com before going to threenottwo.com. |
 | NSNH - AI Readiness 2026 | `~/Claude OS/NSNH/AI Readiness 2026/` | No direct dependency. NSNH materials are delivered separately. |

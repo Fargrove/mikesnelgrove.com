@@ -15,9 +15,14 @@
 - `/src/App.jsx`: Main frontend application logic and UI.
 - `/src/index.css`: Tailwind directives and custom animations (e.g., shimmer effect).
 - `/src/real_app_data.json`: Validated 2026 group structures and match schedules.
-- *(Future)* `/worker/`: Cloudflare Worker setup for the API.
+- `/src/components/KnockoutBracket.jsx`: Interactive CSS Grid-based tournament bracket.
+- `/functions/api/`: Cloudflare Pages functions for handling auth and database (`picks.js`, `me.js`).
+- `/schema.sql`: D1 database schema for users and picks.
 
 ## Goals & Objectives
-1. Build an interactive UI for users to select Group Stage match outcomes and exact scores.
-2. Develop a "March Madness" style 32-team Knockout Stage bracket for users to fill out entirely.
-3. Build backend endpoints via Cloudflare to authenticate users, store submissions, and power an admin dashboard.
+1. Build an interactive UI for users to select Group Stage match outcomes and exact scores. (Done)
+2. Develop a "March Madness" style 32-team Knockout Stage bracket for users to fill out entirely. (Done)
+3. Set up Cloudflare Access for secure, email-based user authentication. (Done)
+4. Build backend endpoints via Cloudflare D1 to store user submissions. (Done)
+5. Define scoring rules and build the Standings / Leaderboard view. (Pending)
+6. Set up a Cloudflare Cron Trigger to automatically fetch real-world scores via API. (Pending)

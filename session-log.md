@@ -22,3 +22,26 @@
 - [ ] Add exact score input fields to the Group Stage UI (`App.jsx`).
 - [ ] Update frontend routing/state to handle Cloudflare authentication.
 - [ ] Initialize Cloudflare Worker and D1 database project structure.
+
+## 2026-05-01 (Session 2)
+### Current State
+- Built fully functional Cloudflare D1 backend for storing predictions.
+- Implemented global deadline lockdown (UI + API level) for June 10th.
+- Refactored UI to use national flags instead of text abbreviations.
+- Developed a pixel-perfect, interactive 32-team CSS Grid Knockout Bracket.
+- Integrated Cloudflare Zero Trust authentication into the frontend/backend and deployed.
+
+### Key Decisions
+- Adopted Cloudflare Zero Trust (Email PINs) for authentication to avoid building a custom login portal.
+- Migrated Knockout Bracket from flexbox to CSS Grid to ensure perfectly aligned connection lines.
+- Fixed Group Stage flexbox issues to ensure long team names (e.g., "Bosnia and Herzegovina") truncate properly.
+- Added a `name` column to the `users` table and a frontend prompt to collect display names for future leaderboard.
+
+### Open Issues
+- Scoring rules for group and knockout stages have not yet been defined by the user.
+
+### Next Steps
+- [ ] Define the point system and scoring rules with the user.
+- [ ] Build the Leaderboard / Standings tab on the frontend.
+- [ ] Set up a Cloudflare Cron Trigger to automatically pull real-world match scores from a Sports API once the tournament starts.
+- [ ] Implement an admin-override view if necessary.

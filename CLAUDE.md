@@ -1,7 +1,10 @@
 # WC Pool 2026 — Project Context
 
+> **Shared memory file**: `GEMINI.md` is a symlink to this file — Claude and Gemini both read from `CLAUDE.md` as the single source of truth.
+
 ## Repo & Hosting
 - **GitHub**: `Fargrove/mikesnelgrove.com` (branch: `wc-pool-2026`, merged to `main` for production)
+- **Local path**: `/Users/michael/Claude OS/mikesnelgrove.com`
 - **Cloudflare Pages project**: `mikesnelgrove-com`
 - **Live URL**: `wc.mikesnelgrove.com` / `wcpool.mikesnelgrove.com`
 - **Auth**: Cloudflare Zero Trust / Access (email one-time-code, already live)

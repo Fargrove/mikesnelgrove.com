@@ -9,7 +9,7 @@ Friends, family, and colleagues participating in a friendly World Cup prediction
 ## Technical Stack
 - **Frontend**: React.js with Vite
 - **Styling**: Tailwind CSS
-- **Backend & Storage**: Cloudflare D1 (Serverless SQL) or Cloudflare KV, with Cloudflare Workers or Pages for API/Hosting. User Authentication via Cloudflare Access or a simple custom JWT implementation.
+- **Backend & Storage**: Cloudflare Pages (hosting), Cloudflare Pages Functions (API), D1 serverless SQL (database). **Confirmed: Cloudflare Zero Trust / Access for authentication** (email one-time-code flow already live).
 - **Data Source**: Initial data mapped from JSON (extracted from provided specs/Wikipedia), representing the real 2026 format (48 teams, 12 groups).
 
 ## Features

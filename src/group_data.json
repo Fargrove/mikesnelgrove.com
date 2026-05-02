@@ -1,0 +1,458 @@
+{
+  "GROUP A": [
+    {
+      "date": "NOV 20",
+      "matchup": "MEX - POL",
+      "team1": "MEX",
+      "team2": "POL"
+    },
+    {
+      "date": "NOV 21",
+      "matchup": "SEN - HOL",
+      "team1": "SEN",
+      "team2": "HOL"
+    },
+    {
+      "date": "NOV 25",
+      "matchup": "QAT - SEN",
+      "team1": "QAT",
+      "team2": "SEN"
+    },
+    {
+      "date": "NOV 25",
+      "matchup": "HOL - ECU",
+      "team1": "HOL",
+      "team2": "ECU"
+    },
+    {
+      "date": "NOV 29",
+      "matchup": "ECU - SEN",
+      "team1": "ECU",
+      "team2": "SEN"
+    },
+    {
+      "date": "NOV 29",
+      "matchup": "HOL - QAT",
+      "team1": "HOL",
+      "team2": "QAT"
+    }
+  ],
+  "GROUP D": [
+    {
+      "date": "NOV 22",
+      "matchup": "ARG - SAU",
+      "team1": "ARG",
+      "team2": "SAU"
+    },
+    {
+      "date": "NOV 22",
+      "matchup": "MEX - POL",
+      "team1": "MEX",
+      "team2": "POL"
+    },
+    {
+      "date": "NOV 26",
+      "matchup": "POL - SAU",
+      "team1": "POL",
+      "team2": "SAU"
+    },
+    {
+      "date": "NOV 26",
+      "matchup": "ARG - MEX",
+      "team1": "ARG",
+      "team2": "MEX"
+    },
+    {
+      "date": "NOV 30",
+      "matchup": "POL - ARG",
+      "team1": "POL",
+      "team2": "ARG"
+    },
+    {
+      "date": "NOV 30",
+      "matchup": "SAU - MEX",
+      "team1": "SAU",
+      "team2": "MEX"
+    }
+  ],
+  "GROUP G": [
+    {
+      "date": "NOV 23",
+      "matchup": "GER - JAP",
+      "team1": "GER",
+      "team2": "JAP"
+    },
+    {
+      "date": "NOV 23",
+      "matchup": "SPA - CRC",
+      "team1": "SPA",
+      "team2": "CRC"
+    },
+    {
+      "date": "NOV 27",
+      "matchup": "JAP - CRC",
+      "team1": "JAP",
+      "team2": "CRC"
+    },
+    {
+      "date": "NOV 27",
+      "matchup": "SPA - GER",
+      "team1": "SPA",
+      "team2": "GER"
+    },
+    {
+      "date": "DEC 1",
+      "matchup": "JAP - SPA",
+      "team1": "JAP",
+      "team2": "SPA"
+    },
+    {
+      "date": "DEC 1",
+      "matchup": "CRC - GER",
+      "team1": "CRC",
+      "team2": "GER"
+    }
+  ],
+  "GROUP J": [
+    {
+      "date": "NOV 24",
+      "matchup": "SWZ - CAM",
+      "team1": "SWZ",
+      "team2": "CAM"
+    },
+    {
+      "date": "NOV 24",
+      "matchup": "BRA - SER",
+      "team1": "BRA",
+      "team2": "SER"
+    },
+    {
+      "date": "NOV 28",
+      "matchup": "CAM - SER",
+      "team1": "CAM",
+      "team2": "SER"
+    },
+    {
+      "date": "NOV 28",
+      "matchup": "BRA - SWZ",
+      "team1": "BRA",
+      "team2": "SWZ"
+    },
+    {
+      "date": "DEC 2",
+      "matchup": "SER - SWZ",
+      "team1": "SER",
+      "team2": "SWZ"
+    },
+    {
+      "date": "DEC 2",
+      "matchup": "CAM - BRA",
+      "team1": "CAM",
+      "team2": "BRA"
+    }
+  ],
+  "GROUP B": [
+    {
+      "date": "NOV 21",
+      "matchup": "ENG - IRA",
+      "team1": "ENG",
+      "team2": "IRA"
+    },
+    {
+      "date": "NOV 21",
+      "matchup": "USA - WAL",
+      "team1": "USA",
+      "team2": "WAL"
+    },
+    {
+      "date": "NOV 25",
+      "matchup": "WAL - IRA",
+      "team1": "WAL",
+      "team2": "IRA"
+    },
+    {
+      "date": "NOV 25",
+      "matchup": "ENG - USA",
+      "team1": "ENG",
+      "team2": "USA"
+    },
+    {
+      "date": "NOV 29",
+      "matchup": "WAL - ENG",
+      "team1": "WAL",
+      "team2": "ENG"
+    },
+    {
+      "date": "NOV 29",
+      "matchup": "IRA - USA",
+      "team1": "IRA",
+      "team2": "USA"
+    }
+  ],
+  "GROUP E": [
+    {
+      "date": "NOV 22",
+      "matchup": "DEN - TUN",
+      "team1": "DEN",
+      "team2": "TUN"
+    },
+    {
+      "date": "NOV 22",
+      "matchup": "FRA - AUS",
+      "team1": "FRA",
+      "team2": "AUS"
+    },
+    {
+      "date": "NOV 26",
+      "matchup": "TUN - AUS",
+      "team1": "TUN",
+      "team2": "AUS"
+    },
+    {
+      "date": "NOV 26",
+      "matchup": "FRA - DEN",
+      "team1": "FRA",
+      "team2": "DEN"
+    },
+    {
+      "date": "NOV 30",
+      "matchup": "WAL - ENG",
+      "team1": "WAL",
+      "team2": "ENG"
+    },
+    {
+      "date": "NOV 30",
+      "matchup": "TUN - FRA",
+      "team1": "TUN",
+      "team2": "FRA"
+    }
+  ],
+  "GROUP H": [
+    {
+      "date": "NOV 23",
+      "matchup": "MOR - CRO",
+      "team1": "MOR",
+      "team2": "CRO"
+    },
+    {
+      "date": "NOV 23",
+      "matchup": "BEL - CAN",
+      "team1": "BEL",
+      "team2": "CAN"
+    },
+    {
+      "date": "NOV 27",
+      "matchup": "BEL - MOR",
+      "team1": "BEL",
+      "team2": "MOR"
+    },
+    {
+      "date": "NOV 27",
+      "matchup": "CRO - CAN",
+      "team1": "CRO",
+      "team2": "CAN"
+    },
+    {
+      "date": "DEC 1",
+      "matchup": "CRO - BEL",
+      "team1": "CRO",
+      "team2": "BEL"
+    },
+    {
+      "date": "DEC 1",
+      "matchup": "CAN - MOR",
+      "team1": "CAN",
+      "team2": "MOR"
+    }
+  ],
+  "GROUP K": [
+    {
+      "date": "NOV 24",
+      "matchup": "URU - KOR",
+      "team1": "URU",
+      "team2": "KOR"
+    },
+    {
+      "date": "NOV 24",
+      "matchup": "POR - GHA",
+      "team1": "POR",
+      "team2": "GHA"
+    },
+    {
+      "date": "NOV 28",
+      "matchup": "KOR - GHA",
+      "team1": "KOR",
+      "team2": "GHA"
+    },
+    {
+      "date": "NOV 28",
+      "matchup": "POR - URU",
+      "team1": "POR",
+      "team2": "URU"
+    },
+    {
+      "date": "DEC 2",
+      "matchup": "GHA - URU",
+      "team1": "GHA",
+      "team2": "URU"
+    },
+    {
+      "date": "DEC 2",
+      "matchup": "KOR - POR",
+      "team1": "KOR",
+      "team2": "POR"
+    }
+  ],
+  "GROUP C": [
+    {
+      "date": "NOV 21",
+      "matchup": "ENG - IRA",
+      "team1": "ENG",
+      "team2": "IRA"
+    },
+    {
+      "date": "NOV 21",
+      "matchup": "USA - WAL",
+      "team1": "USA",
+      "team2": "WAL"
+    },
+    {
+      "date": "NOV 25",
+      "matchup": "WAL - IRA",
+      "team1": "WAL",
+      "team2": "IRA"
+    },
+    {
+      "date": "NOV 25",
+      "matchup": "ENG - USA",
+      "team1": "ENG",
+      "team2": "USA"
+    },
+    {
+      "date": "NOV 29",
+      "matchup": "WAL - ENG",
+      "team1": "WAL",
+      "team2": "ENG"
+    },
+    {
+      "date": "NOV 29",
+      "matchup": "IRA - USA",
+      "team1": "IRA",
+      "team2": "USA"
+    }
+  ],
+  "GROUP F": [
+    {
+      "date": "NOV 22",
+      "matchup": "DEN - TUN",
+      "team1": "DEN",
+      "team2": "TUN"
+    },
+    {
+      "date": "NOV 22",
+      "matchup": "FRA - AUS",
+      "team1": "FRA",
+      "team2": "AUS"
+    },
+    {
+      "date": "NOV 26",
+      "matchup": "TUN - AUS",
+      "team1": "TUN",
+      "team2": "AUS"
+    },
+    {
+      "date": "NOV 26",
+      "matchup": "FRA - DEN",
+      "team1": "FRA",
+      "team2": "DEN"
+    },
+    {
+      "date": "NOV 30",
+      "matchup": "WAL - ENG",
+      "team1": "WAL",
+      "team2": "ENG"
+    },
+    {
+      "date": "NOV 30",
+      "matchup": "TUN - FRA",
+      "team1": "TUN",
+      "team2": "FRA"
+    }
+  ],
+  "GROUP I": [
+    {
+      "date": "NOV 23",
+      "matchup": "MOR - CRO",
+      "team1": "MOR",
+      "team2": "CRO"
+    },
+    {
+      "date": "NOV 23",
+      "matchup": "BEL - CAN",
+      "team1": "BEL",
+      "team2": "CAN"
+    },
+    {
+      "date": "NOV 27",
+      "matchup": "BEL - MOR",
+      "team1": "BEL",
+      "team2": "MOR"
+    },
+    {
+      "date": "NOV 27",
+      "matchup": "CRO - CAN",
+      "team1": "CRO",
+      "team2": "CAN"
+    },
+    {
+      "date": "DEC 1",
+      "matchup": "CRO - BEL",
+      "team1": "CRO",
+      "team2": "BEL"
+    },
+    {
+      "date": "DEC 1",
+      "matchup": "CAN - MOR",
+      "team1": "CAN",
+      "team2": "MOR"
+    }
+  ],
+  "GROUP L": [
+    {
+      "date": "NOV 24",
+      "matchup": "URU - KOR",
+      "team1": "URU",
+      "team2": "KOR"
+    },
+    {
+      "date": "NOV 24",
+      "matchup": "POR - GHA",
+      "team1": "POR",
+      "team2": "GHA"
+    },
+    {
+      "date": "NOV 28",
+      "matchup": "KOR - GHA",
+      "team1": "KOR",
+      "team2": "GHA"
+    },
+    {
+      "date": "NOV 28",
+      "matchup": "POR - URU",
+      "team1": "POR",
+      "team2": "URU"
+    },
+    {
+      "date": "DEC 2",
+      "matchup": "GHA - URU",
+      "team1": "GHA",
+      "team2": "URU"
+    },
+    {
+      "date": "DEC 2",
+      "matchup": "KOR - POR",
+      "team1": "KOR",
+      "team2": "POR"
+    }
+  ]
+}

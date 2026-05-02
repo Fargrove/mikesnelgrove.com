@@ -1,0 +1,558 @@
+{
+  "groups": {
+    "GROUP A": {
+      "teams": [
+        "Mexico",
+        "South Africa",
+        "South Korea",
+        "Czechia"
+      ],
+      "matches": [
+        {
+          "date": "JUN 11",
+          "matchup": "MEX - SOU",
+          "team1": "Mexico",
+          "team2": "South Africa"
+        },
+        {
+          "date": "JUN 11",
+          "matchup": "SOU - CZE",
+          "team1": "South Korea",
+          "team2": "Czechia"
+        },
+        {
+          "date": "JUN 17",
+          "matchup": "MEX - SOU",
+          "team1": "Mexico",
+          "team2": "South Korea"
+        },
+        {
+          "date": "JUN 17",
+          "matchup": "SOU - CZE",
+          "team1": "South Africa",
+          "team2": "Czechia"
+        },
+        {
+          "date": "JUN 23",
+          "matchup": "MEX - CZE",
+          "team1": "Mexico",
+          "team2": "Czechia"
+        },
+        {
+          "date": "JUN 23",
+          "matchup": "SOU - SOU",
+          "team1": "South Africa",
+          "team2": "South Korea"
+        }
+      ]
+    },
+    "GROUP B": {
+      "teams": [
+        "Canada",
+        "Bosnia and Herzegovina",
+        "Qatar",
+        "Switzerland"
+      ],
+      "matches": [
+        {
+          "date": "JUN 11",
+          "matchup": "CAN - BOS",
+          "team1": "Canada",
+          "team2": "Bosnia and Herzegovina"
+        },
+        {
+          "date": "JUN 11",
+          "matchup": "QAT - SWI",
+          "team1": "Qatar",
+          "team2": "Switzerland"
+        },
+        {
+          "date": "JUN 17",
+          "matchup": "CAN - QAT",
+          "team1": "Canada",
+          "team2": "Qatar"
+        },
+        {
+          "date": "JUN 17",
+          "matchup": "BOS - SWI",
+          "team1": "Bosnia and Herzegovina",
+          "team2": "Switzerland"
+        },
+        {
+          "date": "JUN 23",
+          "matchup": "CAN - SWI",
+          "team1": "Canada",
+          "team2": "Switzerland"
+        },
+        {
+          "date": "JUN 23",
+          "matchup": "BOS - QAT",
+          "team1": "Bosnia and Herzegovina",
+          "team2": "Qatar"
+        }
+      ]
+    },
+    "GROUP C": {
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Haiti",
+        "Scotland"
+      ],
+      "matches": [
+        {
+          "date": "JUN 12",
+          "matchup": "BRA - MOR",
+          "team1": "Brazil",
+          "team2": "Morocco"
+        },
+        {
+          "date": "JUN 12",
+          "matchup": "HAI - SCO",
+          "team1": "Haiti",
+          "team2": "Scotland"
+        },
+        {
+          "date": "JUN 18",
+          "matchup": "BRA - HAI",
+          "team1": "Brazil",
+          "team2": "Haiti"
+        },
+        {
+          "date": "JUN 18",
+          "matchup": "MOR - SCO",
+          "team1": "Morocco",
+          "team2": "Scotland"
+        },
+        {
+          "date": "JUN 24",
+          "matchup": "BRA - SCO",
+          "team1": "Brazil",
+          "team2": "Scotland"
+        },
+        {
+          "date": "JUN 24",
+          "matchup": "MOR - HAI",
+          "team1": "Morocco",
+          "team2": "Haiti"
+        }
+      ]
+    },
+    "GROUP D": {
+      "teams": [
+        "United States",
+        "Paraguay",
+        "Australia",
+        "Turkey"
+      ],
+      "matches": [
+        {
+          "date": "JUN 12",
+          "matchup": "UNI - PAR",
+          "team1": "United States",
+          "team2": "Paraguay"
+        },
+        {
+          "date": "JUN 12",
+          "matchup": "AUS - TUR",
+          "team1": "Australia",
+          "team2": "Turkey"
+        },
+        {
+          "date": "JUN 18",
+          "matchup": "UNI - AUS",
+          "team1": "United States",
+          "team2": "Australia"
+        },
+        {
+          "date": "JUN 18",
+          "matchup": "PAR - TUR",
+          "team1": "Paraguay",
+          "team2": "Turkey"
+        },
+        {
+          "date": "JUN 24",
+          "matchup": "UNI - TUR",
+          "team1": "United States",
+          "team2": "Turkey"
+        },
+        {
+          "date": "JUN 24",
+          "matchup": "PAR - AUS",
+          "team1": "Paraguay",
+          "team2": "Australia"
+        }
+      ]
+    },
+    "GROUP E": {
+      "teams": [
+        "Germany",
+        "Cura\u00e7ao",
+        "Ivory Coast",
+        "Ecuador"
+      ],
+      "matches": [
+        {
+          "date": "JUN 13",
+          "matchup": "GER - CUR",
+          "team1": "Germany",
+          "team2": "Cura\u00e7ao"
+        },
+        {
+          "date": "JUN 13",
+          "matchup": "IVO - ECU",
+          "team1": "Ivory Coast",
+          "team2": "Ecuador"
+        },
+        {
+          "date": "JUN 19",
+          "matchup": "GER - IVO",
+          "team1": "Germany",
+          "team2": "Ivory Coast"
+        },
+        {
+          "date": "JUN 19",
+          "matchup": "CUR - ECU",
+          "team1": "Cura\u00e7ao",
+          "team2": "Ecuador"
+        },
+        {
+          "date": "JUN 25",
+          "matchup": "GER - ECU",
+          "team1": "Germany",
+          "team2": "Ecuador"
+        },
+        {
+          "date": "JUN 25",
+          "matchup": "CUR - IVO",
+          "team1": "Cura\u00e7ao",
+          "team2": "Ivory Coast"
+        }
+      ]
+    },
+    "GROUP F": {
+      "teams": [
+        "Netherlands",
+        "Japan",
+        "Sweden",
+        "Tunisia"
+      ],
+      "matches": [
+        {
+          "date": "JUN 13",
+          "matchup": "NET - JAP",
+          "team1": "Netherlands",
+          "team2": "Japan"
+        },
+        {
+          "date": "JUN 13",
+          "matchup": "SWE - TUN",
+          "team1": "Sweden",
+          "team2": "Tunisia"
+        },
+        {
+          "date": "JUN 19",
+          "matchup": "NET - SWE",
+          "team1": "Netherlands",
+          "team2": "Sweden"
+        },
+        {
+          "date": "JUN 19",
+          "matchup": "JAP - TUN",
+          "team1": "Japan",
+          "team2": "Tunisia"
+        },
+        {
+          "date": "JUN 25",
+          "matchup": "NET - TUN",
+          "team1": "Netherlands",
+          "team2": "Tunisia"
+        },
+        {
+          "date": "JUN 25",
+          "matchup": "JAP - SWE",
+          "team1": "Japan",
+          "team2": "Sweden"
+        }
+      ]
+    },
+    "GROUP G": {
+      "teams": [
+        "Belgium",
+        "Egypt",
+        "Iran",
+        "New Zealand"
+      ],
+      "matches": [
+        {
+          "date": "JUN 14",
+          "matchup": "BEL - EGY",
+          "team1": "Belgium",
+          "team2": "Egypt"
+        },
+        {
+          "date": "JUN 14",
+          "matchup": "IRA - NEW",
+          "team1": "Iran",
+          "team2": "New Zealand"
+        },
+        {
+          "date": "JUN 20",
+          "matchup": "BEL - IRA",
+          "team1": "Belgium",
+          "team2": "Iran"
+        },
+        {
+          "date": "JUN 20",
+          "matchup": "EGY - NEW",
+          "team1": "Egypt",
+          "team2": "New Zealand"
+        },
+        {
+          "date": "JUN 26",
+          "matchup": "BEL - NEW",
+          "team1": "Belgium",
+          "team2": "New Zealand"
+        },
+        {
+          "date": "JUN 26",
+          "matchup": "EGY - IRA",
+          "team1": "Egypt",
+          "team2": "Iran"
+        }
+      ]
+    },
+    "GROUP H": {
+      "teams": [
+        "Spain",
+        "Cape Verde",
+        "Saudi Arabia",
+        "Uruguay"
+      ],
+      "matches": [
+        {
+          "date": "JUN 14",
+          "matchup": "SPA - CAP",
+          "team1": "Spain",
+          "team2": "Cape Verde"
+        },
+        {
+          "date": "JUN 14",
+          "matchup": "SAU - URU",
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay"
+        },
+        {
+          "date": "JUN 20",
+          "matchup": "SPA - SAU",
+          "team1": "Spain",
+          "team2": "Saudi Arabia"
+        },
+        {
+          "date": "JUN 20",
+          "matchup": "CAP - URU",
+          "team1": "Cape Verde",
+          "team2": "Uruguay"
+        },
+        {
+          "date": "JUN 26",
+          "matchup": "SPA - URU",
+          "team1": "Spain",
+          "team2": "Uruguay"
+        },
+        {
+          "date": "JUN 26",
+          "matchup": "CAP - SAU",
+          "team1": "Cape Verde",
+          "team2": "Saudi Arabia"
+        }
+      ]
+    },
+    "GROUP I": {
+      "teams": [
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ],
+      "matches": [
+        {
+          "date": "JUN 15",
+          "matchup": "FRA - SEN",
+          "team1": "France",
+          "team2": "Senegal"
+        },
+        {
+          "date": "JUN 15",
+          "matchup": "IRA - NOR",
+          "team1": "Iraq",
+          "team2": "Norway"
+        },
+        {
+          "date": "JUN 21",
+          "matchup": "FRA - IRA",
+          "team1": "France",
+          "team2": "Iraq"
+        },
+        {
+          "date": "JUN 21",
+          "matchup": "SEN - NOR",
+          "team1": "Senegal",
+          "team2": "Norway"
+        },
+        {
+          "date": "JUN 27",
+          "matchup": "FRA - NOR",
+          "team1": "France",
+          "team2": "Norway"
+        },
+        {
+          "date": "JUN 27",
+          "matchup": "SEN - IRA",
+          "team1": "Senegal",
+          "team2": "Iraq"
+        }
+      ]
+    },
+    "GROUP J": {
+      "teams": [
+        "Argentina",
+        "Algeria",
+        "Austria",
+        "Jordan"
+      ],
+      "matches": [
+        {
+          "date": "JUN 15",
+          "matchup": "ARG - ALG",
+          "team1": "Argentina",
+          "team2": "Algeria"
+        },
+        {
+          "date": "JUN 15",
+          "matchup": "AUS - JOR",
+          "team1": "Austria",
+          "team2": "Jordan"
+        },
+        {
+          "date": "JUN 21",
+          "matchup": "ARG - AUS",
+          "team1": "Argentina",
+          "team2": "Austria"
+        },
+        {
+          "date": "JUN 21",
+          "matchup": "ALG - JOR",
+          "team1": "Algeria",
+          "team2": "Jordan"
+        },
+        {
+          "date": "JUN 27",
+          "matchup": "ARG - JOR",
+          "team1": "Argentina",
+          "team2": "Jordan"
+        },
+        {
+          "date": "JUN 27",
+          "matchup": "ALG - AUS",
+          "team1": "Algeria",
+          "team2": "Austria"
+        }
+      ]
+    },
+    "GROUP K": {
+      "teams": [
+        "Portugal",
+        "DR Congo",
+        "Uzbekistan",
+        "Colombia"
+      ],
+      "matches": [
+        {
+          "date": "JUN 16",
+          "matchup": "POR - DR ",
+          "team1": "Portugal",
+          "team2": "DR Congo"
+        },
+        {
+          "date": "JUN 16",
+          "matchup": "UZB - COL",
+          "team1": "Uzbekistan",
+          "team2": "Colombia"
+        },
+        {
+          "date": "JUN 22",
+          "matchup": "POR - UZB",
+          "team1": "Portugal",
+          "team2": "Uzbekistan"
+        },
+        {
+          "date": "JUN 22",
+          "matchup": "DR  - COL",
+          "team1": "DR Congo",
+          "team2": "Colombia"
+        },
+        {
+          "date": "JUN 28",
+          "matchup": "POR - COL",
+          "team1": "Portugal",
+          "team2": "Colombia"
+        },
+        {
+          "date": "JUN 28",
+          "matchup": "DR  - UZB",
+          "team1": "DR Congo",
+          "team2": "Uzbekistan"
+        }
+      ]
+    },
+    "GROUP L": {
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ],
+      "matches": [
+        {
+          "date": "JUN 16",
+          "matchup": "ENG - CRO",
+          "team1": "England",
+          "team2": "Croatia"
+        },
+        {
+          "date": "JUN 16",
+          "matchup": "GHA - PAN",
+          "team1": "Ghana",
+          "team2": "Panama"
+        },
+        {
+          "date": "JUN 22",
+          "matchup": "ENG - GHA",
+          "team1": "England",
+          "team2": "Ghana"
+        },
+        {
+          "date": "JUN 22",
+          "matchup": "CRO - PAN",
+          "team1": "Croatia",
+          "team2": "Panama"
+        },
+        {
+          "date": "JUN 28",
+          "matchup": "ENG - PAN",
+          "team1": "England",
+          "team2": "Panama"
+        },
+        {
+          "date": "JUN 28",
+          "matchup": "CRO - GHA",
+          "team1": "Croatia",
+          "team2": "Ghana"
+        }
+      ]
+    }
+  },
+  "knockout": {},
+  "tournament_picks": {}
+}
